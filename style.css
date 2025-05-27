@@ -1,0 +1,79 @@
+body {
+    background-color: #14092d;
+    color: #c9d1d9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .highlight {
+    color: #128ca1;
+    background: linear-gradient(90deg, #285ac7, #0d054f);
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+  }
+  
+  .subtitle {
+    color: #128ca1;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .about h2,
+  .tech-stack h2 {
+    color: #000000;
+    border-bottom: 1px solid #1a112b;
+    padding-bottom: 0.5rem;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .about-content pre {
+    background-color: #1a112b;
+    padding: 1rem;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    flex: 1;
+  }
+  
+  .about-content img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #ffd700;
+    font-size: 1.2rem;
+  }
+
+  
