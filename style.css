@@ -31,8 +31,9 @@ body {
   }
   
   .about h2,
-  .tech-stack h2 {
-    color: #000000;
+  .tech-stack h2,
+  .projects h2 {
+    color: #ffffff;
     border-bottom: 1px solid #1a112b;
     padding-bottom: 0.5rem;
   }
@@ -76,4 +77,27 @@ body {
     font-size: 1.2rem;
   }
 
+  .box{
+    width: 200px;
+    height: 200px;
+    background-color: #128ca1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.2s ease;
+    
+  }
+
+  .box:hover {
+    background-color: #0d054f;
+    transform: scale(1.05);
+  }
+
+  .caixas {
+    display: flex;
+    gap: 1rem;
+  }
   
