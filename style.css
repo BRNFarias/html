@@ -1,5 +1,5 @@
 body {
-    background-image:url("./img/5630939.jpg");
+    /*background-image:url("./img/5630939.jpg");*/
     background-color: #14092d;
     color: #c9d1d9;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -73,9 +73,12 @@ body {
   
   footer {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 50px;
     color: #ffd700;
-    font-size: 1.2rem;
+    font-size: 10px;
+    font-family:cursive;
+
+
   }
 
   .box{
@@ -89,7 +92,6 @@ body {
     color: #ffffff;
     font-weight: bold;
     transition: 0.2s ease;
-    
   }
 
   .box:hover {
@@ -103,8 +105,17 @@ body {
   }
   
   .img {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
+    width: 25px;
+    height: 25px;
     object-fit: cover;
+  }
+  
+  .certifications {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
